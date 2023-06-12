@@ -1,10 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	var name string
-	fmt.Println("Enter Your name")
+	fmt.Println("Enter your name:")
 	fmt.Scanln(&name)
-	fmt.Printf("hello " + name)
+
+	capitalizedName := strings.ToUpper(name)
+	fmt.Printf("Hello %s\n", capitalizedName)
 }
