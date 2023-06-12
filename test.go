@@ -7,5 +7,4 @@ func main() {
 	fmt.Println("Enter Your name")
 	fmt.Scanln(&name)
 	fmt.Printf("hello " + name)
-
 }
