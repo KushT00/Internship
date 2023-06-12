@@ -12,4 +12,5 @@ func main() {
 
 	capitalizedName := strings.ToUpper(name)
 	fmt.Printf("Hello %s\n", capitalizedName)
+	fmt.Printf("New Branch ")
 }
